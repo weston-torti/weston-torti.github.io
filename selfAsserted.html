@@ -8,7 +8,6 @@
         window.onload = function () {
             const urlParams = new URLSearchParams(window.location.search);
             if (urlParams && urlParams.get('create')) {
-                console.log("create Clicked");
                 const createAccountButton = document.getElementById('createAccount');
                 if (createAccountButton) {
                     createAccountButton.click();
